@@ -7,43 +7,43 @@ export const FoodList = {
   },
   food2: {
     name: 'Orange Chicken',
-    ingredients: ['mozarella', 'crushed tomatoes', 'basil', 'extra virgin olive oil',],
+    ingredients: ['Chicken', 'Orange Sauce', 'Vinegar', 'Ginger',],
     image: "/assets/food/orangechicken.jpg",
     price: 995
   },
   food3: {
     name: 'General Tso\'s Chicken',
-    ingredients: ['mozarella', 'mixed peppers', 'crushed tomatoes', 'basil', 'aubergine', 'extra virgin olive oil',],
+    ingredients: ['Chicken', 'Honey', 'Mixed Peppers', 'Extra Virgin Olive Oil',],
     image: "/assets/food/generaltso.jpg",
     price: 895
   },
   food4: {
     name: 'Eggroll',
-    ingredients: ['mozarella', 'crushed tomatoes', 'anchovies', 'black olives', 'capers', 'extra virgin olive oil',],
+    ingredients: ['Ground Meat', 'Vegetable Oil', 'Coleslaw', 'Ginger', 'Scallion',],
     image: "/assets/food/eggroll.jpg",
     price: 295
   },
   food5: {
     name: 'Kung Pao Chicken',
-    ingredients: ['mozarella', 'crushed tomatoes', 'salami', 'piccante', 'red chillies', 'extra virgin olive oil',],
+    ingredients: ['Chicken', 'Honey', 'Mixed Peppers', 'Extra Virgin Olive Oil',],
     image: "/assets/food/kungpao.jpg",
     price: 1295
   },
   food6: {
     name: 'Chow Mein',
-    ingredients: ['parmegianno', 'tuna', 'pineapples', 'piccante', 'red chillies', 'extra virgin olive oil',],
+    ingredients: ['Noodles', 'Carrots', 'Garlic', 'Ginger', 'Soy Sauce',],
     image: "/assets/food/chowmein.jpeg",
     price: 1295
   },
   food7: {
     name: 'Chicken Fried Rice',
-    ingredients: ['parmegianno', 'ham', 'button mushrooms', 'olives', 'onions', 'basil', 'extra virgin olive oil',],
+    ingredients: ['Chicken', 'Rice', 'Onions', 'Peas', 'Sesame Oil',],
     image: "/assets/food/friedrice.jpg",
     price: 1395
   },
   food8: {
     name: 'Shrimp Fried Rice',
-    ingredients: ['parmegianno', 'mozarella', 'goat\'s cheese',],
+    ingredients: ['Shrimp', 'Rice', 'Onions', 'Peas', 'Sesame Oil',],
     image: "/assets/food/shrimpfriedrice.jpg",
     price: 1395
   },
