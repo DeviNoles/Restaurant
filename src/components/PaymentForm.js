@@ -21,8 +21,10 @@ class PaymentForm extends Component {
 
     if (cardNumber && cardExpiry && cvc) {
       this.props.formStatus(true);
+      console.log('true form status')
     } else {
       this.props.formStatus(false);
+      console.log('fform status')
     }
   }
 
@@ -49,7 +51,7 @@ class PaymentForm extends Component {
 
     return (
       <div>
-      
+
         <Segment>
           <Form>
             <label>

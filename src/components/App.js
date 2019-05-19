@@ -56,7 +56,7 @@ class App extends Component {
       order: order,
       orderTotal: newTotal
     });
-  }
+  } /*required in Menu Proptype*/
 
   removeFromOrder = (key) => {
     const order = { ...this.state.order};
@@ -72,7 +72,7 @@ class App extends Component {
       order: order,
       orderTotal: newTotal
     });
-  }
+  } /*required in Cart Proptype*/
 
   updateCheckoutTotal = (newTotal) => {
     this.setState({
@@ -112,6 +112,7 @@ class App extends Component {
 }
 
   render() {
+    /*fragments used to avoid adding additional nodes to the DOM*/
     return (
       <BrowserRouter>
         <Fragment>

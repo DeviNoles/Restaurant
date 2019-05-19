@@ -8,9 +8,12 @@ import Footer from './Footer';
 import FoodContainer from './FoodContainer';
 
 const Menu = (props) => (
+  /*links to cart route
+
+  Note: Instead of a href="/"> for React Routing use link to="/">*/
   <Fragment>
     <NavBar order={props.order} orderTotal={props.orderTotal}>
-      {props.orderTotal > 0 && <Button as={Link} to='/cart' color='purple' id='menu-checkout-btn'>Checkout</Button>}
+      {props.orderTotal > 0 && <Button as={Link} to='/cart' color='blue' id='menu-checkout-btn'>Checkout</Button>}
     </NavBar>
     <Container id='page-container'>
       <Header as='h1' id='page-header'>Food Selection</Header>

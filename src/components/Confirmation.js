@@ -34,10 +34,10 @@ class Confirmation extends Component {
       </Menu>
         <Container textAlign='center' id='confirmation-container'>
           <Header as='h1' id='page-header'>Thanks, {firstName}!</Header>
-          <p id='confirmation-text'>Your order, <strong>#2222</strong> is now being prepped and will be delivered to: </p>
+          <p id='confirmation-text'>Your order, <strong>#1234</strong> is now being prepped and will be delivered to: </p>
           <p><strong>{address}</strong></p>
           <p>within the next hour <span role='img' aria-label='motorcycle'>🛵</span> </p>
-          <Image centered id='confirmation-img'  src='https://media.giphy.com/media/j1p1Z7XaX8HEQ/giphy.gif' />
+          <Image centered id='confirmation-img'  src='https://i.ibb.co/qpDYqTp/kitty.jpg' />
           <Button onClick={this.handleClick} color='blue' size='large' id='confirmation-new-btn'>Start a fresh order</Button>
         </Container>
         <Footer />

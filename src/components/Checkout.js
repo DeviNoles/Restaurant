@@ -15,7 +15,6 @@ class Checkout extends Component {
   static propTypes = {
     orderTotal: PropTypes.number,
     customerDetails: PropTypes.object,
-    loadSampleCustomer: PropTypes.func.isRequired,
     updateCustomerDetails: PropTypes.func.isRequired,
     checkoutTotal: PropTypes.number
   }
@@ -43,8 +42,9 @@ class Checkout extends Component {
   handleSubmit = () => {
     this.checkCustomerForm();
 
-    if(this.state.customerForm && this.state.paymentForm) {
+    if(this.state.customerForm) {
       this.setState({ completedForm: true });
+      this.setState({paymentForm:true})
     } else {
       this.setState({ completedForm: false });
     }
@@ -52,6 +52,7 @@ class Checkout extends Component {
 
   render(){
     if (this.state.completedForm) {
+      console.log('COMPLETED FORM TRUE')
     return <Redirect push to='/confirmed' />;
     }
 
@@ -66,7 +67,6 @@ class Checkout extends Component {
               <CustomerDetailsForm
                 customerDetails={this.props.customerDetails}
                 updateCustomerDetails={this.props.updateCustomerDetails}
-                loadSampleCustomer={this.props.loadSampleCustomer}
                 formStatus={this.checkCustomerForm}
               />
             </Grid.Column>
