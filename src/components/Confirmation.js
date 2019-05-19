@@ -30,7 +30,7 @@ class Confirmation extends Component {
     return(
       <Fragment>
       <Menu secondary id='navbar'>
-        <Menu.Item header id='navbar-header'>Slices</Menu.Item>
+        <Menu.Item header id='navbar-header'>Dev's Chinese Food</Menu.Item>
       </Menu>
         <Container textAlign='center' id='confirmation-container'>
           <Header as='h1' id='page-header'>Thanks, {firstName}!</Header>
